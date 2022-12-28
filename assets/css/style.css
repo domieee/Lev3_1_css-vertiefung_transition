@@ -9,10 +9,10 @@
         left: 0;
     }
     30% {
-        left: 14%;
+        left: 18%;
     }
-    66% {
-        left: 14%
+    70% {
+        left: 18%
     }
     100% {
         left: 0;
@@ -20,17 +20,16 @@
 }
 
 @keyframes circle-2 {
-    0% {
+    30% {
         left: 30%;
     }
-    46% {
+    70% {
         left: 90%;
     }
     100% {
         left: 30%;
     }
 }
-
 
 .wrapper {
     display: flex;
@@ -59,7 +58,6 @@
     left: 30%;
 }
 
-
 .wrapper:hover .circle:nth-child(1)  {
     animation-name: circle-1;
     animation-duration: 6s;
@@ -68,6 +66,5 @@
 .wrapper:hover .circle:nth-child(2)  {
     animation-name: circle-2;
     animation-duration: 6s;
-    animation-delay: 1.4s;
 }
 
